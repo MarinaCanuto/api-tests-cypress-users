@@ -1,55 +1,90 @@
-# Testes API - EBAC
-### Exercício para os alunos de Qualidade de software da EBAC 
+# 🔗 Testes de API com Cypress
 
-## Clonando e executando em sua máquina
+## 📌 Sobre o projeto
 
-### Pré-requisito:
+Projeto de automação de testes de API desenvolvido utilizando Cypress, com foco na validação de endpoints relacionados a usuários.
 
--Node.js - Você encontra em: https://nodejs.org/en/
+Os testes verificam o comportamento da API, garantindo respostas corretas, validações de dados e funcionamento das operações.
 
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
+---
 
--Git: você encontra em: https://git-scm.com/downloads
+## 🚀 Tecnologias utilizadas
 
+* Node.js
+* Cypress
 
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/EBAC-QE/teste-api-ebac.git
+---
+
+## 🧪 Cenários automatizados
+
+* 📥 Criação de usuário
+* 🔍 Consulta de usuários
+* ✏️ Atualização de dados
+* ❌ Validação de respostas de erro
+
+---
+
+## ▶️ Como executar o projeto
+
+### 1. Clonar o repositório
+
+```bash id="dfg8s8"
+git clone https://github.com/MarinaCanuto/api-tests-cypress-users.git
 ```
-```
-cd teste-api-ebac
+
+### 2. Instalar dependências
+
+```bash id="dqntvz"
+npm install
 ```
 
-#### Para instalar as dependencias:
-```
-npm install 
-```
+### 3. Executar os testes
 
-#### Para subir o servidor:
-```
-npm start
-```
-
-#### Para executar em moodo Headlesss via console:
-```
+```bash id="hnyvqc"
 npx cypress run
 ```
 
-#### Para executar via Dashboard:
+### 4. Executar com interface gráfica
+
+```bash id="f7t5e5"
+npx cypress open
 ```
-npx cypress open 
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash id="ogm6q1"
+cypress/
+  ├── e2e          # Testes de API
+  ├── fixtures     # Massa de dados
+  ├── support      # Configurações e comandos
 ```
-Após abrir o dashboard, prossiga com os passos sugerido pelo Cypress.
 
+---
 
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
+## 💡 Objetivo do projeto
 
+Este projeto tem como objetivo:
 
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
+* Praticar automação de testes de API
+* Validar endpoints e regras de negócio
+* Desenvolver habilidades com Cypress
 
+---
 
+## 📌 Próximos passos
 
+* Adicionar mais cenários de teste
+* Melhorar validações de resposta
+* Implementar relatórios
+* Integrar com CI/CD
 
+---
+
+## 👩‍💻 Autora
+
+Marina Sousa Canuto
+QA Engineer em formação com foco em automação de testes
+
+---
